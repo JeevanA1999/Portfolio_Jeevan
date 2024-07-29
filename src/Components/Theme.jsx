@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { themes } from "../data";
 import ThemeItem from "./ThemeItem";
 import { FaCog } from "react-icons/fa";
@@ -6,7 +6,7 @@ import { BsSun, BsMoon } from "react-icons/bs";
 import "./Theme.css";
 
 const getStorageColor = () => {
-  let color = "hsl(252,35%,51%)";
+  let color = "hsl(43, 74%, 49%)";
   if (localStorage.getItem("color")) {
     color = localStorage.getItem("color");
   }
@@ -14,7 +14,7 @@ const getStorageColor = () => {
 };
 
 const getStorageTheme = () => {
-  let theme = "light-theme";
+  let theme = "dark-theme ";
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
   }
