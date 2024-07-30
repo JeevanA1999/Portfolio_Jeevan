@@ -3,12 +3,11 @@ import emailjs from "emailjs-com";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
-import {
+import { FaSquareXTwitter } from "react-icons/fa6";
+import {FaGithub ,
   FaEnvelopeOpen,
+  FaWhatsapp ,
   FaPhoneSquareAlt,
-  FaFacebookF,
-  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
@@ -89,25 +88,27 @@ const Contact = () => {
             </div>
 
             <div className="info__item">
-              <FaPhoneSquareAlt className="info__icon" />
+              
+              <FaPhoneSquareAlt className="info__icon"  />
               <div>
                 <span className="info__title">Call me </span>
                 <h4 className="info__desc">+91 86184 15611</h4>
+
               </div>
             </div>
           </div>
           <div className="contact__socials">
             <a
-              href="https://www.facebook.com/"
+              href="https://github.com/JeevanA1999" target="_blank"
               className="conatct__social-link"
             >
-              <FaFacebookF />
+              <FaGithub  />
             </a>
-            <a href="https://www.twitter.com/" className="conatct__social-link">
-              <FaTwitter />
+            <a href="https://x.com/JeevanAkulal"  target="_blank" className="conatct__social-link">
+              <FaSquareXTwitter />
             </a>
-            <a href="https://www.youtube.com/" className="conatct__social-link">
-              <FaYoutube />
+            <a href="https://wa.me/8618415611?text=Hello"  target="_blank" className="conatct__social-link">
+              <FaWhatsapp  />
             </a>
           </div>
         </div>

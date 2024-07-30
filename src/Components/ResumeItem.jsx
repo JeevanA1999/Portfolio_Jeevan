@@ -1,4 +1,4 @@
-import React from "react";
+
 import parse from "html-react-parser";
 const ResumeItem = ({ icon, year, title, desc }) => {
   return (

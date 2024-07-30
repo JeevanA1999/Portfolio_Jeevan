@@ -107,8 +107,8 @@ export const personalInfo = [
 
   {
     id: 9,
-    title: "Skype : ",
-    description: "Jeevan A",
+    title: "GitHub : ",
+    description: "JeevanA1999",
   },
 
   {

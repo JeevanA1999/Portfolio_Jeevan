@@ -4,6 +4,12 @@ import Profile from "../../assets/Profile1.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import "./Home.css";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import {FaGithub ,
+
+  FaWhatsapp ,
+  
+} from "react-icons/fa";
 const Home = () => {
   return (
     <section className="home section grid">
@@ -20,7 +26,21 @@ const Home = () => {
             user-friendly experiences, I am passionate about building excellent
             software that improves the lives of those around me.
           </p>
-          <Link to="/about" className="button">
+          <div className="contact__socials">
+            <a
+              href="https://github.com/JeevanA1999" target="_blank"
+              className="conatct__social-link"
+            >
+              <FaGithub  />
+            </a>
+            <a href="https://x.com/JeevanAkulal"  target="_blank" className="conatct__social-link">
+              <FaSquareXTwitter />
+            </a>
+            <a href="https://wa.me/8618415611?text=Hello"  target="_blank" className="conatct__social-link">
+              <FaWhatsapp  />
+            </a>
+          </div>
+          <Link to="/about" className="button button1">
             More About Me{" "}
             <span className="button__icon">
               <FaArrowRight />

@@ -206,8 +206,8 @@
     display: none;
   }
   .home__img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
   }
   .home__content {
@@ -319,6 +319,7 @@
   .stats__box {
     padding: 20px 30px 25px;
   }
+  
 }
 @media screen and (max-width: 450px) {
   .home__img {
@@ -330,11 +331,12 @@
   }
   .home__data{
     margin-top: -100px;
+    padding-top: 50px;
   }
  
   .home__content {
-    margin-block: auto;
-    text-align: left;
+    text-align: center;
+    margin-bottom: auto;
   }
   .home__title {
     font-size: var(--h1-font-size);
