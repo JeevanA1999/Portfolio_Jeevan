@@ -324,7 +324,7 @@
 @media screen and (max-width: 450px) {
   .home__img {
     /* display: none; */
-    margin-top: 70px;
+    /* margin-top: 70px; */
     width: 270px;
     height: 270px;
     border-radius: 50%;
