@@ -164,3 +164,16 @@ img {
   justify-content: center;
   line-height: 60px;
 }
+
+.button-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optional: This makes the container take full height of the viewport */
+}
+.buttonNxt{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

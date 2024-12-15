@@ -1,4 +1,4 @@
-import React from "react";
+
 // import Profile from "../../assets/home.jpg";
 import Profile from "../../assets/Profile1.jpg";
 import { Link } from "react-router-dom";

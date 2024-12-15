@@ -90,8 +90,10 @@
   display: flex;
 }
 .item__title,
-.item__details {
+.item__details,
+.item__details_Link {
   font-size: var(--small-font-size);
+  color: var(--text-color);
 }
 
 .item__details {

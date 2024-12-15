@@ -5,6 +5,12 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .home__content {
+        
+    text-align: center;
+    
+}
+
   .container {
     max-width: 1140px;
   }
@@ -49,6 +55,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  
+    .home__content {
+        
+        text-align: center;
+        
+    }
+
   .grid {
     gap: 20px;
   }
@@ -127,6 +140,11 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+ 
+    .home__content {
+        text-align: center;  
+    }
+
   .container {
     max-width: 720px;
   }

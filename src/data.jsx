@@ -121,7 +121,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "2",
+    no: "2.9",
     title: "Years of <br /> Experience",
   },
 
@@ -131,17 +131,17 @@ export const stats = [
     title: "Completed <br /> Projects",
   },
 
-  // {
-  //   id: 3,
-  //   no: "81+",
-  //   title: "Happy <br /> Customers",
-  // },
+  {
+    id: 3,
+    no: "5+",
+    title: "Happy <br /> Customers",
+  },
 
-  // {
-  //   id: 4,
-  //   no: "53+",
-  //   title: " Awards <br /> Won",
-  // },
+  {
+    id: 4,
+    no: "3",
+    title: " Awards <br /> Won",
+  },
 ];
 
 export const resume = [
@@ -151,7 +151,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "2022 - PRESENT",
     title: "Web Developer <span> Wipro Ltd </span>",
-    desc: "Manage application development project from initial designs through completion. Communicating with clients or stakeholders to understand their needs and provide solutions. Collaborating with designers, back-end developers, and stakeholders to create seamless user experiences. Creating and implementing responsive design and optimization techniques to enhance user experience and performance. Troubleshooting and debugging code and resolving issues that may arise.",
+    desc: "Took the project from initial design through to completion, ensuring all milestones were met on time.Improved UI performance by 60% by identifying bottlenecks, leveraging technologies like Redux and ReactHooks.Integrated responsive design principles and turned static web pages into dynamic ones, reducing device-specific bugs by 35%.Coordinated with the design team to ensure seamless integration of UX/UI designs, resulting in a 60% increase in user satisfaction.Worked closely with an Agile team and provided end-to-end solutions for clients. Diagnosed and resolved issues during the development process, ensuring a stable and efficient final product",
   },
 
   {
@@ -248,28 +248,36 @@ export const skills = [
 
 
 ];
-
 export const portfolio = [
   {
     id: 1,
     img: Work1,
     title: "Hotel Room Booking",
+    link:"https://hotel-booking-sooty.vercel.app/",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
         desc: "Hotel Satkar",
       },
-      
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "HTML5,CSS3,ReactJs",
+        desc: "HTML5, CSS3, ReactJs",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://hotel-booking-sooty.vercel.app/",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://hotel-booking-sooty.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
       },
     ],
   },
@@ -277,18 +285,14 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: " Job Finder Application",
+    title: "Job Finder Application",
+    link:"https://job-finder-six.vercel.app/",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
         desc: "Job Line",
       },
-      // {
-      //   icon: <FiUser />,
-      //   title: "Client : ",
-      //   desc: "Dribble",
-      // },
       {
         icon: <FaCode />,
         title: "Language : ",
@@ -297,7 +301,16 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://job-finder-six.vercel.app/",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://job-finder-six.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
       },
     ],
   },
@@ -306,13 +319,13 @@ export const portfolio = [
     id: 3,
     img: Work3,
     title: "Github Finder",
+    link:"https://jeevana1999.github.io/Github_Profile_Finder/",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
         desc: "G Finder",
       },
-      
       {
         icon: <FaCode />,
         title: "Language : ",
@@ -321,7 +334,16 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://jeevana1999.github.io/Github_Profile_Finder/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
       },
     ],
   },
@@ -330,13 +352,13 @@ export const portfolio = [
     id: 4,
     img: Work4,
     title: "Coin Trace",
+    link:"https://coin-trace-h6my.vercel.app/",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
         desc: "Coin Trace",
       },
-      
       {
         icon: <FaCode />,
         title: "Language : ",
@@ -345,64 +367,20 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://coin-trace-h6my.vercel.app/",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://coin-trace-h6my.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
       },
     ],
   },
-
-  // {
-  //   id: 5,
-  //   img: Work5,
-  //   title:"Coin Trace",
-  //   details: [
-  //     {
-  //       title: "Project : ",
-  //       desc: "Website",
-  //     },
-  //     {
-  //       title: "Client : ",
-  //       desc: "Dribble",
-  //     },
-  //     {
-  //       title: "Language : ",
-  //       desc: "React JS, Node JS",
-  //     },
-  //     {
-  //       title: "Preview : ",
-  //       desc: "www.dribble.com",
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   id: 6,
-  //   img: Work6,
-  //   title: "Photo Editing",
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: "Project : ",
-  //       desc: "Photo",
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: "Client : ",
-  //       desc: "Dribble",
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: "Language : ",
-  //       desc: "Adobe Photoshop",
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: "Preview : ",
-  //       desc: "www.dibble.com",
-  //     },
-  //   ],
-  // },
 ];
-
 export const themes = [
   {
     id: 1,

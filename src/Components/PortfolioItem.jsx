@@ -1,9 +1,15 @@
-import React from "react";
+
 import Close from "../assets/close.svg";
 import { useState } from "react";
+const PortfolioItem = ({ img, title, details,link }) => {
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * Toggles the visibility of the modal.
+ * If the modal is currently open, it will be closed, and vice versa.
+ */
 
-const PortfolioItem = ({ img, title, details }) => {
-  const [modal, setModal] = useState(false);
+/******  0407599d-3114-4c85-b9a2-8ee6e93675f7  *******/  const [modal, setModal] = useState(false);
+
   const toggleModal = () => {
     setModal(!modal);
   };
@@ -36,7 +42,8 @@ const PortfolioItem = ({ img, title, details }) => {
                 );
               })}
             </ul>
-            <img className="modal__img" src={img} alt="" />
+            <a href={link} target="_blank" rel="noopener noreferrer"><img className="modal__img" src={img} alt="" /></a>
+            {/* <img className="modal__img" src={img} alt="" /> */}
           </div>
         </div>
       )}

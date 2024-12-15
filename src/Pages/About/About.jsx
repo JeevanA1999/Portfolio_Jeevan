@@ -70,8 +70,10 @@
 // export default About;
 
 
-import React from "react";
+
+import { Link } from "react-router-dom";
 import Info from "../../Components/Info";
+import { FaArrowRight } from "react-icons/fa";
 import Stats from "../../Components/Stats";
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/jeevan-CV.pdf";
@@ -89,7 +91,7 @@ const About = () => {
         </h2>
         <div className="about__container grid">
           <div className="about__info">
-            <h3 className="section__subtitle">Personal Infos</h3>
+            <h3 className="section__subtitle">Personal Info</h3>
             <ul className="info__list grid">
               <Info />
             </ul>
@@ -129,7 +131,16 @@ const About = () => {
             ))}
           </div>
         </div>
+       
       </section>
+      <div className="button-container">
+  <Link to="/portfolio" className="button buttonNxt">
+    My Portfolio{" "}
+    <span className="button__icon">
+      <FaArrowRight />
+    </span>
+  </Link>
+</div>
     </main>
   );
 };
