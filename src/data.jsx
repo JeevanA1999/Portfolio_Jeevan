@@ -10,9 +10,10 @@ import {
 import { FiFileText, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/hotelBooking.png";
-import Work2 from "./assets/jobline.jpeg";
+import Work2 from "./assets/jobline.png";
 import Work3 from "./assets/gfinder.png";
-import Work4 from "./assets/cointrace.jpeg";
+import Work4 from "./assets/cointrace.png";
+import Work5 from "./assets/newsNexus.png"
 
 
 import Theme1 from "./assets/purple.png";
@@ -121,7 +122,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "2.9",
+    no: "3",
     title: "Years of <br /> Experience",
   },
 
@@ -250,6 +251,38 @@ export const skills = [
 ];
 export const portfolio = [
   {
+    id: 4,
+    img: Work5,
+    title: "News Nexus",
+    link:"https://github.com/JeevanA1999/NewsNexusOne/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "News Nexus",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language: ",
+        desc: "React Js, Redux Toolkit,Tailwind CSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://github.com/JeevanA1999/NewsNexusOne"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
+      },
+    ],
+  },
+  {
     id: 1,
     img: Work1,
     title: "Hotel Room Booking",
@@ -262,7 +295,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Language: ",
         desc: "HTML5, CSS3, ReactJs",
       },
       {
@@ -290,7 +323,7 @@ export const portfolio = [
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
+        title: "Project: ",
         desc: "Job Line",
       },
       {
@@ -323,7 +356,7 @@ export const portfolio = [
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
+        title: "Project: ",
         desc: "G Finder",
       },
       {
@@ -356,7 +389,7 @@ export const portfolio = [
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
+        title: "Project: ",
         desc: "Coin Trace",
       },
       {
