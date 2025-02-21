@@ -14,7 +14,7 @@ import Work2 from "./assets/jobline.png";
 import Work3 from "./assets/gfinder.png";
 import Work4 from "./assets/cointrace.png";
 import Work5 from "./assets/newsNexus.png"
-
+import Work6 from "./assets/DashBoard.png"
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -250,6 +250,39 @@ export const skills = [
 
 ];
 export const portfolio = [
+  {
+    id: 6,
+    img: Work6,
+    title: "Transcation Dash Board",
+    link:"https://transcation-control-dash-board.vercel.app/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Transcation Dash Board",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language: ",
+        desc: "HTML5, CSS3, ReactJs, Redux Toolkit",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://transcation-control-dash-board.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
+      },
+    ],
+  },
+
   {
     id: 4,
     img: Work5,
