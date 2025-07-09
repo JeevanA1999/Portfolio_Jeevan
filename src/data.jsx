@@ -9,9 +9,9 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/hotelBooking.png";
+import Work3 from "./assets/hotelBooking.png";
 import Work2 from "./assets/jobline.png";
-import Work3 from "./assets/adminDashboard.png";
+import Work1 from "./assets/adminDashboard.png";
 import Work4 from "./assets/gfinder.png";
 import Work5 from "./assets/cointrace.png";
 import Work6 from "./assets/newsNexus.png";
@@ -173,8 +173,8 @@ export const portfolio = [
     ],
   },
   {
-    id: 1,
-    img: Work1,
+    id: 3,
+    img: Work3,
     title: "Hotel Room Booking",
     link: "https://hotel-booking-sooty.vercel.app/",
     details: [
@@ -221,8 +221,8 @@ export const portfolio = [
     ],
   },
   {
-    id: 3,
-    img: Work3,
+    id: 1,
+    img: Work1,
     title: "Admin Dashboard",
     link: "https://vitejs-vite-uayajych.vercel.app/",
     details: [
