@@ -157,6 +157,30 @@ export const portfolio = [
     ],
   },
   {
+    id: 8,
+    img: Work8,
+    title: "Finebank Dashboard",
+    link: "https://finebank-io-livid.vercel.app/login",
+    details: [
+      { icon: <FiFileText />, title: "Project : ", desc: "Finebank Dashboard" },
+      { icon: <FaCode />, title: "Language: ", desc: "React, Material Ui, Javscript(JSX),CSS3, HTML5" },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a
+            className="item__details_Link"
+            href="https://finebank-io-livid.vercel.app/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        ),
+      },
+    ],
+  },
+  {
     id: 6,
     img: Work6,
     title: "News Nexus",
