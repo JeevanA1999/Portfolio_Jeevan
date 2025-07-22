@@ -147,7 +147,7 @@ export const portfolio = [
     id: 2,
     img: Work2,
     title: "Finebank Dashboard",
-    link: "https://finebank-io-livid.vercel.app/login",
+    link: "https://finebank-io-q3dk.vercel.app/",
     details: [
       { icon: <FiFileText />, title: "Project : ", desc: "Finebank Dashboard" },
       { icon: <FaCode />, title: "Language: ", desc: "React, Material UI, JavaScript, CSS3, HTML5" },
